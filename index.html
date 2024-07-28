@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyborg</title>
 </head>
 <body>
     <!-- Start Nav -->
-    <nav>
+    <nav id="nav">
         <div class="container">
             <div class="holder">
                 <!-- Start Logo of nav -->
-                <a href=""><img src="images/logo.png" alt=""></a>
+                <a href="#nav"><img src="images/logo.png" alt=""></a>
                 <!-- End Logo of nav -->
 
                 <!-- Start Search of nav -->
@@ -25,8 +25,8 @@
                     <svg class="trans" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e75e8d"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
                     <!-- Start Links of nav -->
                     <ul>
-                        <li class="trans"><a href="">Home</a></li>
-                        <li class="trans"><a href="">Browse</a></li>
+                        <li class="trans"><a style="color: #e75e8d;" href="#nav">Home</a></li>
+                        <li class="trans"><a href="browse.html">Browse</a></li>
                         <li class="trans"><a href="">Details</a></li>
                         <li class="trans"><a href="">Streams</a></li>
                         <li class="trans"><a href="">
@@ -45,7 +45,7 @@
     </nav>
     <!-- End Nav -->
     <!-- Start main -->
-    <main>
+    <main >
         <div class="container">
             <!-- Start Welcome Section -->
             <div class="section-welcome">
@@ -225,7 +225,7 @@
                                 <img src="images/game-02.jpg" alt="">
                                 <div>
                                     <p class="one white">Fortnite</p>
-                                1   <p class="two">Sandbox</p>
+                                    <p class="two">Sandbox</p>
                                 </div>
                             </div>
                             <div class="info">
@@ -269,10 +269,18 @@
                             <button>Downloaded</button>
                         </div>
                     </div>
-                    <a href="">View Your Library</a>
+                    <a href="" class="trans">View Your Library</a>
                     <!-- End Library Section -->
             </div>
-    </main>
-    <!-- End main -->
+
+        </main>
+        <!-- End main -->
+        <!-- Strat Footer -->
+        <footer>
+            <div class="container">
+                <p>Copyright &copy; 2036 <a class="trans" href="#nav">Cyborg Gaming</a> Company. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- End Footer -->
 </body>
 </html>
